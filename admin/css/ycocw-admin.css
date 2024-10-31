@@ -1,0 +1,114 @@
+/* Admin style */
+
+.ycombox{
+    border: 1px solid #bdbfc1;
+    padding-left: 5px;
+    margin-right: 10px;
+    border-radius: 3px;
+    user-select: none;
+    padding-top: 1px;
+}
+.ycombox .ycrecboard {
+  height: 10px;
+  width: 20px;
+  background-color:#b78cac;
+  box-shadow: 1px .5px #888;
+  display:inline-block;
+  margin-left:1px;
+  margin-right:4px;
+  margin-bottom: 1px;
+  
+}
+.ycmdatac{
+    margin-bottom: 35px;
+}
+.yc-col-tbl {
+    width: 100%; 
+    max-width:650px;
+}
+.yc-col-tbl .ycmflat{
+    text-align:left;
+    font-size: 15px;
+    color:#b78cac;
+}
+
+.yc-col-tbl .ycnb,.ycrb{
+    width:40px;
+    padding:0 0!important;
+    font-size:14px;
+    background:#b78cac!important;
+}
+.yc-col-tbl .ycrb:hover{
+    background:red!important;
+}
+.yc-col-tbl .ycnb:hover{
+    background:#43b832!important;
+}
+#ycocw_submit{
+    background:#b78cac;
+}
+#ycocw_submit:hover{
+    background:#9c7692;
+}
+.yc-col-tbl tr:not(.active) .ycnb{
+    display: none;
+}
+.yc-col-tbl .active .ycrb{
+    display: none;
+}
+.ycocw-submit {
+    margin-top:40px;
+    margin-bottom:0;
+}
+.ycthtd {
+padding-bottom: 10px;
+padding-right: 10px;
+}
+.ycthtd input[type=text]{width:100%;}
+.ycobt{padding-top:6px;}
+.ycobtm{padding-top:4.5px;}
+
+@media only screen and (max-width:782px){
+    .ycobtm{padding-top:9px;}
+    .ycobt{padding-top:10px;}
+}
+@media only screen and (max-width: 600px){
+    .ycthtd {
+    padding-bottom: 10px;
+    padding-right: 0;
+}
+   .yc-col-tbl .yc-btn-com{
+       padding-left: 4px;
+   }
+}
+.ycocw-ul .ycocw-li-box{
+    border: 1px solid #d8a2cb;
+    padding: 5px;
+    background: #f0d5e9;
+    width: 100%;
+    min-width:300px;
+    font-size:15px;
+}
+.ycocw-meta-sam{
+    border-left: 5px solid #d8a2cb;
+    padding-left: 5px;
+    font-size: 17px;
+    font-weight: normal;
+} 
+.ycocw-billing{
+    display: inline-block;
+    padding: 15px;
+    padding-top: 0;
+    margin-right:20px;
+    font-size: 16px;
+}
+.ycocw-shipping{
+    display: inline-block;
+    padding: 15px;
+    padding-top: 0;
+    font-size: 16px;
+}
+
+.ycocw-billing .ycocw-ul, .ycocw-shipping .ycocw-ul{
+    list-style-type: square;
+}
